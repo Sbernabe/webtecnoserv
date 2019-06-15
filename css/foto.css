@@ -1,0 +1,125 @@
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 12px;
+    
+   
+  }
+  .button1 {
+    background-color: #f44336; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 12px;
+   
+  }
+  #customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .ti{
+      background-color: #4CAF50;
+
+  }
+  .from1{
+    
+    margin: 30px 417px 33px;
+     border-radius: 12px;
+     border-radius: 5px;
+     background-color: #6e6b6b;
+     padding: 20px;
+
+  }
+  .btnenviar{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 45px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  .btncancelar{
+    background-color: #f44336;/* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 45px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  .label{
+    width: 100%;
+     padding: 12px 14px;
+     display: inline-block;
+     border: 1px solid #ccc;
+     border-radius: 12px;
+    box-sizing: border-box;
+    
+  }
+  .texto{
+    width: 50%;
+     padding: 12px 14px;
+     margin: 8px 0;
+     float: left;
+  }
+  .subir{
+    width: 100%;
+    background-color: #f9f9f9;
+    border: none; 
+    color: #080707;
+    padding: 7px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 12px;
+  }
+  .texto{
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+  }

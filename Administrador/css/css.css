@@ -1,0 +1,10 @@
+video{
+    width: 100%;
+    margin: 0em;
+    height: auto;
+    height: 20%;
+    filter: saturate(180%);
+  }
+  .cerrar{
+    float: right;
+  }

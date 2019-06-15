@@ -1,0 +1,7 @@
+CREATE DEFINER=`root`@`localhost` PROCEDURE `LOGIN_USUARIO`(			
+				IN _email varchar(50), 
+				IN _password varchar(40)
+  )
+BEGIN
+        SELECT * FROM usuarios WHERE emailU=_email AND passwordU=_password;
+END

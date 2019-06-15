@@ -1,0 +1,115 @@
+﻿*{
+    margin:0;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+body {
+    background: url(../img/4203.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -o-background-size: 100% 100%, auto;
+    -moz-background-size: 100% 100%, auto;
+    -webkit-background-size: 100% 100%, auto;
+    background-size: 100% 100%, auto;
+}
+.contenedor .form .form-header .form-title{
+    font-weight:normal;
+    font-family:sans-serif;
+    color:darkorange;
+    text-align:center;
+    padding:14px 0;
+}
+.contenedor .form .form-header .form-title span 
+    {
+    color:#fff;
+    }
+.contenedor .form{
+    background: rgba(0,0,0,.6);
+    width:90%;
+    max-width:650px;
+    margin:auto;
+    padding:5px 35px;
+    margin-top:30px;
+    padding-bottom:30px;
+    border-radius:3px;
+}
+    .contenedor .form .form-label {
+        display: block;
+        color: darkorange;
+        font-size:16px;
+        font-family:roboto;
+        position:relative;
+    }
+    .contenedor .form .form-input {
+        background: rgba(0,0,0,.7);
+        border: none;
+        outline: none;
+        border-bottom: 2px solid darkorange;
+        width:100%;
+        padding:12px;
+        margin-bottom:20px;
+        border-radius:2px;
+        font-size:14px;
+        color:#fff;
+        font-family:roboto;
+    }
+    .contenedor .form .form-input{
+        resize:vertical;
+        max-height:150px;
+        min-height:50px;
+    }
+    .contenedor .form .checkbox {
+        display: block;
+        color: darkorange;
+        font-size: 16px;
+        font-family: roboto;
+        position: relative;
+        background: rgba(0,0,0,.7);
+        border: none;
+        outline: none;
+        border-bottom: 2px solid darkorange;
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border-radius: 2px;
+                       
+    }
+    .contenedor .form .btn-submit {
+        width: 100px;
+        font-family: roboto;
+        outline: none;
+        background: green;
+        font-size:16px;
+        border:none;
+        color:#fff;
+        padding:15px 0;
+        cursor:pointer;
+        transition:all .5s ease;
+       
+    }
+        .contenedor .form .btn-submit:hover {
+            background: #f29718;
+            
+        }
+    .contenedor .form .btn-submit2 {
+        width: 100px;
+        font-family: roboto;
+        outline: none;
+        background: red;
+        font-size: 16px;
+        border: none;
+        color: #fff;
+        padding: 15px 0;
+        cursor: pointer;
+        transition: all .5s ease;
+        
+    }
+    .contenedor .form .btn-submit2:hover {
+        background: #f29718;
+    }
+    .contenedor .form .btns{
+        padding-top:30px;
+    }

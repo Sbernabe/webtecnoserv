@@ -1,0 +1,362 @@
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+body{
+  background: rgba(141, 140, 140, 0.836);
+  background: url(../img/principal4.png);
+  background-size: 100%;
+}
+#contenedor{
+border: 0px dotted rgb(209, 207, 207);
+width: 800px;
+margin: auto;
+padding: 20px;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;padding: 0px;
+   
+}
+h1{
+    margin: 0px;padding: 0px;
+    margin-top:10px;
+    padding-top:10px;
+    text-align: center;
+}
+h1{
+    font-family: 'Indie Flower', cursive;
+    color: rgb(231, 229, 229);
+    text-shadow:0px 4px 8px rgba(0,0,0,0.4);
+    text-align: center;
+    
+    
+}
+
+h2{
+    text-shadow:1px 1px 0 rgb(248, 245, 245);
+    
+}
+p{
+    color: rgb(253, 253, 253);
+}
+h6{
+    text-align: center;
+    color: rgb(248, 242, 242);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+nav ul li{
+    float: left;
+    padding: 4px;
+    margin: 4px;
+    border-right: 1px dashed rgb(255, 254, 254);
+    text-align: center;
+    width: 100px;
+    transition: all 1s;
+}
+nav ul li:hover{
+    background: rgba(255,255,255,0,5);
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+footer{
+    color: rgb(250, 246, 246);
+}
+#banner{
+    width: 100%;
+    height: 450px;
+    border: 0px solid rgb(243, 240, 240);
+    background: url(../img/a.jpg);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.4);
+    background-size: 100%;
+    float: right;
+    margin-right: 0.1%;
+    background-size: 100%;
+    
+    
+
+
+    
+}
+#contienebanner{
+    padding: 2%;
+    background: rgba(201, 203, 204, 0.678);
+    padding-left: 23%;
+
+}
+
+#logo1{
+    height: 193px;
+    width: 175px;
+    background:url(../img/a.jpg);
+    background-size: 100% 100%;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin:10px auto;
+  display:block;
+  border-radius: 12px;
+}
+#banner #contienebanner p{
+    font-size: 10px;
+}
+#contieneformulario {
+    width: 95%;
+    background: rgb(50, 171, 228);
+    padding: 20px;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+    margin-top: 10px;
+}
+#contieneformulario form{
+    width: 50%;
+    margin: auto;
+    border: 1px dashed rgba(255, 254, 254, 0.2);
+    padding: 10px;
+}
+#contieneformulario form input,#contieneformulario form textarea,#contieneformulario form #botonenviar{
+    width: 95%;
+    margin-bottom: 10px;
+}
+#articulos{
+    width: 66%;
+    float: left;
+}
+#articulos article{
+    width: 100%;
+    float: none;
+    margin-bottom: 40px;
+}
+aside {
+    padding: 10px;
+    border: px solid black;
+    width: 30%;
+    float: right;
+    height: 100%;
+    background: rgba(0,0,0, 0.1);
+}
+#contieneblog{
+    background: white;
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+.button {
+    background-color: DodgerBlue; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 30px;
+    cursor: pointer;
+  }
+.button1 {border-radius: 12px;}
+.button2 {border-radius: 12px;}
+.button3 {border-radius: 12px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 12px;}
+
+
+  
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .row:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  
+  html {
+    font-family: "Lucida Sans", sans-serif;
+  }
+  
+
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    border-radius: 12px;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(241, 240, 240, 0.986), 0 1px 2px rgba(245, 245, 245, 0.24);
+  }
+  
+  .menu li:hover {
+    background-color: #0099cc;
+    border-radius: 12px;
+  }
+  
+  .aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(252, 252, 252, 0.12), 0 1px 2px rgba(255, 254, 254, 0.24);
+  }
+  
+  .footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+  }
+
+.gallery {
+    margin: 9px;
+    border: 1px solid rgb(94, 97, 97);
+    float: left;
+    width: 180px;
+    background: rgba(237, 246, 247, 0.678);
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .im1{
+    height: 193px;
+    width: 175px;
+    background:url(../img/1.jpg);
+    background-size: 100% 100%;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin:10px auto;
+	display:block;
+  }
+  .im2{
+    height: 193px;
+    width: 175px;
+    background:url(../img/2.jpg);
+    background-size: 100% 100%;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin:10px auto;
+	display:block;
+  }
+  .im3{
+    height: 193px;
+    width: 175px;
+    background:url(../img/3.jpg);
+    background-size: 100% 100%;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin:10px auto;
+	display:block;
+  }
+  .im4{
+    height: 193px;
+    width: 175px;
+    background:url(../img/4.jpg);
+    background-size: 100% 100%;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin:10px auto;
+	display:block;
+  }
+  .button2 {
+    background-color: #008CBA; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin: 4px 30px;
+    cursor: pointer;
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
